@@ -1,0 +1,401 @@
+/* Reset some default styles */
+body, h1, h2, h3, p, ul, li, a {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+/* Apply a colorful gradient background to the body */
+body {
+    background: linear-gradient(135deg, #3498db, #e74c3c);
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: #fff;
+    line-height: 1.6;
+}
+
+/* Apply a white background to the header */
+header {
+    background-color: #fff;
+    color: #333;
+    padding: 40px 0;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+}
+
+header h1 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
+
+/* Style the navigation menu */
+nav ul {
+    display: flex;
+    justify-content: center;
+    background-color: transparent;
+    padding: 20px 0;
+}
+
+nav ul li {
+    margin: 0 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    font-weight: bold;
+    font-size: 1.2rem;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #ffcc80;
+}
+
+/* Style the sections */
+section {
+    padding: 50px 0;
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    margin: 20px 0;
+}
+
+section h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #333;
+    text-align: center;
+}
+
+/* Style the skills list */
+#skills ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+}
+
+#skills li {
+    background-color: #ffcc80;
+    padding: 8px 16px;
+    border-radius: 20px;
+    font-size: 1rem;
+    color: #333;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+/* Style the education section */
+#education p {
+    font-size: 1.1rem;
+    color: #555;
+    text-align: center;
+    margin-top: 10px;
+}
+
+/* Style the experience section */
+#experience .project-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 20px;
+    justify-items: center;
+}
+
+#experience .project {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+#experience .project img {
+    max-width: 100%;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+#experience .project h3 {
+    font-size: 1.3rem;
+    margin-bottom: 8px;
+    color: #333;
+}
+
+#experience .project p {
+    font-size: 1rem;
+    color: #555;
+    line-height: 1.4;
+    margin-bottom: 10px;
+}
+
+#experience .project:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Style the projects section */
+#projects .project-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 20px;
+    justify-items: center;
+}
+
+#projects .project {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+#projects .project img {
+    max-width: 100%;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+#projects .project h3 {
+    font-size: 1.3rem;
+    margin-bottom: 8px;
+    color: #333;
+}
+
+#projects .project p {
+    font-size: 1rem;
+    color: #555;
+    line-height: 1.4;
+    margin-bottom: 10px;
+}
+
+#projects .project:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* ... (remaining CSS code) ... */
+/* ... (previous styles remain the same) ... */
+
+/* Style the contact form */
+#contact {
+    text-align: center;
+    padding: 60px 0;
+}
+
+#contact h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+#contact p {
+    font-size: 1.1rem;
+    color: #555;
+    margin-bottom: 30px;
+}
+
+#contact form {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+#contact label {
+    display: block;
+    font-size: 1.1rem;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+#contact input,
+#contact textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+#contact textarea {
+    resize: vertical;
+}
+
+#contact button {
+    background-color: #3498db;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s;
+}
+
+#contact button:hover {
+    background-color: #2980b9;
+}
+
+/* ... (remaining styles remain the same) ... */
+/* ... (previous styles remain the same) ... */
+
+/* Style the about section */
+#about {
+    text-align: center;
+    padding: 60px 0;
+}
+
+#about h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.about-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.about-photo img {
+    max-width: 100%;
+    border-radius: 50%;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.about-text p {
+    font-size: 1.1rem;
+    color: #555;
+    text-align: center;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+/* ... (remaining styles remain the same) ... */
+/* ... (previous styles remain the same) ... */
+
+/* Style the about section */
+#about {
+    text-align: center;
+    padding: 60px 0;
+    background-color: #f7f7f7;
+}
+
+#about h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.about-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.about-photo img {
+    max-width: 100%;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.about-text p {
+    font-size: 1.1rem;
+    color: #555;
+    text-align: center;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+/* ... (remaining styles remain the same) ... */
+/* ... (previous styles remain the same) ... */
+
+/* Style the skills section */
+#skills {
+    text-align: center;
+    padding: 60px 0;
+    background-color: #f7f7f7;
+}
+
+#skills h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+#skills ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+#skills li {
+    margin: 0;
+}
+
+#skills button {
+    background-color: #3498db;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s;
+}
+
+#skills button:hover {
+    background-color: #2980b9;
+    transform: scale(1.05);
+}
+
+/* ... (remaining styles remain the same) ... */
+/* ... (previous styles remain the same) ... */
+
+/* Style the social media icons */
+.social-icons {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    display: flex;
+    gap: 10px;
+    z-index: 1000; /* Ensure icons are above other content */
+}
+
+.social-icons a {
+    display: inline-block;
+    background-color: #3498db;
+    color: #fff;
+    padding: 8px;
+    border-radius: 50%;
+    font-size: 1.2rem;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.social-icons a:hover {
+    background-color: #2980b9;
+    transform: scale(1.05);
+}
+
+/* ... (remaining styles remain the same) ... */
+
+h1{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
